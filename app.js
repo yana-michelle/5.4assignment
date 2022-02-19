@@ -17,4 +17,6 @@ while(age<18){
 }
 
 const text = document.querySelector(".title");
-const text = document.querySelector(".changeColor");
+const changeColor = document.querySelector(".changeColor");
+
+text.style.color = "red";
