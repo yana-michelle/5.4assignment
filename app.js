@@ -1,13 +1,3 @@
-let loading = 0;
-
-while(loading < 100){
-    console.log('Websitr is still loading');
-
-    loading ++;
-}
-
-
-
 const animeNames= ['Gojo', 'Yuji', 'Megumi', 'Nobara', 'Inumaki', 'Maki', 'Panda'];
 
 for (name of animeNames){
@@ -23,5 +13,8 @@ for (name of animeNames){
 let age = 0;
 
 while(age<18){
-    console.log("I'm telling your mom you're sticking your nose where it doesn't belong");
+    console.log("I'm telling your momma you're sticking your nose where it doesn't belong");
 }
+
+const text = document.querySelector(".title");
+const text = document.querySelector(".changeColor");
